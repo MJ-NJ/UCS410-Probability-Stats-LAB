@@ -15,3 +15,22 @@
 # print(x)
 
 # Q.3
+# c = dpois(0,5)
+# print(c)
+
+# d = ppois(50,50) - ppois(47,50)
+# print(d)
+
+# Q.4
+# e = dhyper(3, m=17, n=233,k=5)
+# print(e)
+
+# Q.5
+x = seq(0,31) 
+pmf = dbinom(x,31,0.447)
+plot(x,pmf)
+cdf = pbinom(x,31,0.447)
+plot(x,cdf)
+mean(x)
+var(x)
+sd(x)
