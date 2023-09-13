@@ -44,13 +44,13 @@
 # cat("The smallest value of n with a match probability > 0.5 is:", smallest_n, "\n")
 
 # Q3
-# cond_prob <- function(p_a,p_b,p_b_given_a,p_b_given_not_a){
+# cond_prob <- function(p_a,p_b_given_a,p_b_given_not_a){
 # return((p_a * p_b_given_a) / ((p_a * p_b_given_a) + ((1 - p_a) * p_b_given_not_a)))
 # }
 # cloudy <- 0.4
 # rain_given_cloudy <- 0.85
 # rain_given_not_cloudy <- 0.2
-# result <- cond_prob(cloudy, 0.6,rain_given_cloudy, rain_given_not_cloudy)
+# result <- cond_prob(cloudy,rain_given_cloudy, rain_given_not_cloudy)
 # print(result)
 
 # Q4
