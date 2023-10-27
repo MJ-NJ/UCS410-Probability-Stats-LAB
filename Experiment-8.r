@@ -39,3 +39,5 @@ hist(s500, col = "blue",main='Sample Size = 500',xlab='Wall Thickness')
 abline(v = mean(s500), col="red")
 hist(s9000, col = "blue",main='Sample Size = 9000',xlab='Wall Thickness')
 abline(v = mean(s9000), col="red")
+
+#This can be done in a loop but I am too lazy to do it
