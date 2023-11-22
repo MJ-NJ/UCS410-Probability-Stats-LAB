@@ -22,6 +22,7 @@ colors <- c("red", "green", "purple")
 for (i in 1:3) {
   lines(x, pdf_values[, i], col = colors[i])
 }
+
 # Q.4
 percentile <- qf(0.95, 10, 20)
 percentile

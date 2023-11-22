@@ -5,7 +5,7 @@ library("pracma")
 f<-function(x,y){
   2*(2*x+3*y)/5
 }
-I<-integral2(f, 0, 1, 0, 1)
+I<-integral2(f, 0, 1, 0 , 1)
 I$Q
 
 #(ii)
@@ -14,7 +14,7 @@ f1<-function(y){
 }
 I1<-integral(f1,0,1)
 I1
-
+ 
 #(iii)
 f2<-function(x){
   f(x,0)
@@ -42,6 +42,7 @@ M
 sum(M,x,y)
 #(iii)
 a1<-apply(M,1,sum)
+a1
 #(iv)
 a2<-apply(M,2,sum)
 #(v)
