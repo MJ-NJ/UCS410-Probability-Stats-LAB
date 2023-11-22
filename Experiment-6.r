@@ -5,7 +5,7 @@ library("pracma")
 f<-function(x,y){
   2*(2*x+3*y)/5
 }
-I<-integral2(f,0,1,0,1)
+I<-integral2(f, 0, 1, 0, 1)
 I$Q
 
 #(ii)
