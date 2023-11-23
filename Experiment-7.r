@@ -5,13 +5,13 @@
 # hist(t_dist)
 
 # Q.2
-# df <- c(2,10,25)
-# n <- 100
-# par(mfrow = c(1,3))
-# for (i in df) {
-#   chisq_hist <- rchisq(n,i)
-#   hist(chisq_hist)
-# }
+df <- c(2,10,25)
+n <- 100
+par(mfrow = c(1,3))
+for (i in df) {  
+  chisq_hist <- rchisq(n,i)
+  hist(chisq_hist)
+}
 
 # Q.3
 x <- seq(6, -6, length.out = 100)

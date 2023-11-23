@@ -7,7 +7,7 @@ f<-function(x,y){
 }
 I<-integral2(f, 0, 1, 0 , 1)
 I$Q
-
+ 
 #(ii)
 f1<-function(y){
   f(1,y)
